@@ -196,6 +196,8 @@ const addEmployee = () => {
 
 };
 
+const PORT=8080;
+
 // GENERATE HTML PAGE USING FILES 
 const writeFile = data => {
     fs.writeFile('./dist/index.html', data, err => {
